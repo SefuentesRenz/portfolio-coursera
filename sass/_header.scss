@@ -1,0 +1,21 @@
+@use 'variables';
+
+header {
+  background-color: variables.$primary-color;
+  padding: 1rem;
+
+  nav {
+    display: flex;
+    gap: 1rem;
+
+    a {
+      color: variables.$light-bg;
+      text-decoration: none;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+    }
+  }
+}

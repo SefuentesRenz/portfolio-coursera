@@ -1,0 +1,17 @@
+@use 'variables';
+
+body {
+  font-family: variables.$font-stack;
+  margin: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode {
+  background-color: variables.$light-bg;
+  color: variables.$primary-color;
+}
+
+body.dark-mode {
+  background-color: variables.$dark-bg;
+  color: variables.$secondary-color;
+}
